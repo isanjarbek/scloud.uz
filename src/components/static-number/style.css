@@ -1,0 +1,53 @@
+.statistic-number{
+    padding: 50px 0;
+}
+.static-table{
+    padding: 0 12px;
+}
+.table-number{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 42px 76px;
+    border: 2px solid #eee;
+}
+.circle{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
+.circle1{
+    background-color: #F3602D;
+}
+.circle2{
+    background-color: #149211;
+}
+.circle3{
+    background-color: #FFC700;
+}
+@media only screen and (max-width:980px) {
+    .table-number{
+        padding: 30px 40px;
+    }
+}
+@media (max-width:611px) {
+    .table-number{
+        padding: 20px 30px;
+    }
+    .statistic-number{
+        padding: 30px 0;
+    }
+    .circle{
+        width: 10px;
+        height: 10px;
+    }
+}
+@media (max-width:376px) {
+    .table-number{
+        padding: 20px;
+    }
+    .circle{
+        width: 8px;
+        height: 8px;
+    }
+}

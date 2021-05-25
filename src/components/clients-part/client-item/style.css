@@ -1,0 +1,38 @@
+.item-wrapper{
+    padding: 25px 30px;
+    text-align: center;
+    border: 2px solid #EEEEEE;
+}
+.client-item{
+    max-width: 570px;
+    padding: 0 15px;
+    background-image: url("../../../photos/quote.png");
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: 20px;
+    margin:0 auto 40px;
+}
+.text-client{
+    text-align: center;
+    font-size: 16px;
+    color: #888;
+    line-height: 24px;
+    max-width: 510px;
+}
+.about-client{
+    margin-top: 30px;
+    font-size: 13px;
+}
+.about-client h2{
+    font-size: 13px;
+    margin-top: 10px;
+}
+@media (max-width:611px) {
+    .client-item{
+        max-width: 500px;
+        padding: 0 12px;
+    }
+    .about-client{
+        margin-top: 20px;
+    }
+}

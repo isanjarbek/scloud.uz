@@ -1,0 +1,26 @@
+.logos{
+    padding: 48px 0;
+}
+.img-logos{
+    display: flex;
+    justify-content: space-between;
+}
+
+@media only screen and (max-width:1300px) {
+    .img-logos img{
+        max-width: 120px;
+    }
+}
+@media only screen and (max-width:900px) {
+    .img-logos{
+        flex-wrap: wrap;
+    }
+    .img-logos img{
+        max-width: 90px;
+    }
+}
+@media (max-width:611px) {
+    .logos{
+        display: none;
+    }
+}

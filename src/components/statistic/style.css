@@ -1,0 +1,90 @@
+.statistic{
+    background-color: #FAFAFA;
+    background-image: url("../../photos/element.png");
+    background-position-y:center;
+    background-position-x: -260px;
+    
+}
+.static-content{
+    display: flex;
+}
+.static-text{
+    margin: auto 0;
+    padding:  0 12px;
+}
+.static-text h2{
+    max-width: 409px;
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 50px
+}
+.static-text p{
+    font-family: Gilroy;
+    max-width: 515px;
+    font-size: 16px;   
+    color: #666;
+    padding: 20px 0 35px;
+    line-height: 23px;
+}
+
+@media only screen and (max-width:1300px) {
+    .static-photo{
+        max-width: 650px;
+    }
+    .static-photo img{
+        width: 100%;
+    }
+    .static-text h2{
+        font-size: 36px;
+        line-height: 42px;
+    }
+}
+@media only screen and (max-width:980px) {
+    .statistic{
+        padding: 50px 0;
+    }
+    .static-text h2{
+        font-size: 32px;
+    }
+    /* .static-text p{
+        font-size: 12px;
+        line-height: 20px;
+    } */
+    .static-photo{
+        max-width: 390px;
+    }
+    .static-photo img{
+        width: 100%;
+    }
+}
+@media only screen and (max-width:768px) {
+    .statistic{
+        padding: 30px 0;
+    }
+    .static-content{
+        flex-direction: column-reverse;
+        
+    }
+    .static-text{
+        margin: 0 auto;
+        text-align: center;
+    }
+    .static-text h2{
+        margin: 0 auto;
+        font-size: 28px;
+        line-height: 32px;
+    }
+    .static-text p{
+        padding: 15px 0 20px;
+    }
+    .static-photo{
+        margin: 0 auto;
+    }
+    
+}
+@media (max-width: 376px) {
+    .static-text h2{
+        font-size: 24px;
+        line-height: 28px;
+    }
+}

@@ -1,0 +1,57 @@
+.element-img {
+  width: 70px;
+  height: 70px;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.backclr1 {
+  background-color: rgba(242, 88, 34, 0.25);
+}
+.backclr2 {
+  background-color: rgba(20, 146, 17, 0.28);
+}
+.backclr3 {
+  background-color: rgba(255, 205, 29, 0.24);
+}
+.mini-element {
+  max-width: 370px;
+  padding: 40px 30px 25px;
+  cursor: pointer;
+}
+
+.mini-element:hover {
+  box-shadow: 28px 28px 65px #cacaca, -28px -28px 65px #f6f6f6;
+  transition: ease 0.7s;
+}
+.mini-element h2 {
+  margin-top: 20px;
+  font-weight: bold;
+  font-size: 24px;
+  font-weight: 700;
+}
+.mini-element p {
+  font-size: 15px;
+  color: #666;
+  padding: 20px 0 15px;
+}
+.link {
+  font-size: 11px;
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 768px) {
+  .mini-element:hover {
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+  }
+  .mini-element h2{
+    margin-top: 15px;
+  }
+  .mini-element p{
+    padding: 15px 0;
+  }
+}
+    

@@ -1,0 +1,19 @@
+.it-jobs{
+    padding: 50px 0;
+}
+
+.jobs-elements{
+    padding: 0 12px;
+}
+.jobs-elements h2{
+    font-size: 24px;
+    margin: 20px 4px 6px;
+}
+.dev-item{
+    width: 90px;
+    margin:4px;
+}
+.item{
+    display: flex;
+    flex-wrap: wrap;
+}

@@ -1,0 +1,22 @@
+.card-mini {
+  padding: 50px 0;
+}
+.card-mini-item {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media only screen and (max-width: 768px) {
+  .card-mini-item {
+    display: block;
+  }
+  .mini-element {
+    margin: 0 auto;
+    padding: 40px 30px 25px;
+  }
+  .mini-element:hover {
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+  }
+}

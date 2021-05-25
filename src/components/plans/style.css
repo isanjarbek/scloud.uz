@@ -1,0 +1,56 @@
+.plans{
+    background-color:#FAFAFA;
+    padding: 90px 0;
+}
+.plan-texts{
+    text-align: center;
+}
+.plan-texts h2{
+    font-size: 38px;
+}
+.plan-texts p{
+    font-size: 16px;
+    color: #666;
+}
+.plans-elements{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+
+@media only screen and (max-width:1300px) {
+    .plans{
+        padding: 70px 0;
+    }
+    .plan-texts h2{
+        font-size: 36px;
+    }
+    .plan-texts p{
+        font-size: 16px;
+        margin-top: 8px;
+    }
+}
+@media only screen and (max-width: 980px) {
+    .plans-elements{
+        display: block;
+    }
+}
+@media (max-width:611px) {
+    .plans{
+        padding: 50px 0;
+    }
+    .plan-texts h2{
+        font-size: 24px;
+    }
+   
+    .plans-elements{
+        margin-top: 30px;
+    }
+}
+@media (max-width:376px) {
+    .plan-texts h2{
+        font-size: 24px;
+        line-height: 28px;
+    }
+}
