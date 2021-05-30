@@ -1,3 +1,6 @@
+.speed-comp{
+    padding: 60px 0 80px;
+}
 .speed-comp-elements{
     display: flex;
     justify-content: space-between;

@@ -1,7 +1,7 @@
 import React from 'react'
 import './style.css'
 import { FaFacebookF, FaInstagram, FaTelegramPlane } from 'react-icons/fa';
-import { BrowserRouter as Router, Route, Switch, Link } from "react-router-dom";
+import { BrowserRouter as Router, Link } from "react-router-dom";
 
 import { FiMail } from 'react-icons/fi'
 
@@ -14,41 +14,26 @@ function MItem(props) {
                 <p>{props.job}</p>
                 <div className="icon-social">
                     <Router>
-                        <Link to="/facebook">
+                        <a href={props.facebook} target="_blank">
                             <div className="icon">
                                 <FaFacebookF className="fa-icon" />
                             </div>
-                        </Link>
-                        <Link to="/instagram">
+                        </a>
+                        <a href={props.instagram} target="_blank">
                             <div className="icon">
                                 <FaInstagram className="fa-icon" />
                             </div>
-                        </Link>
-                        <Link to="/telegram">
+                        </a>
+                        <a href={props.telegram} target="_blank">
                             <div className="icon">
                                 <FaTelegramPlane className="fa-icon" />
                             </div>
-                        </Link>
-                        <Link to="/gmail">
+                        </a>
+                        <a href={props.gamil} target="_blank">
                             <div className="icon">
                                 <FiMail className="fa-icon" />
                             </div>
-                        </Link>
-
-                        <Switch>
-                            <Route path="/facebook">
-
-                            </Route>
-                            <Route path="/instagram">
-
-                            </Route>
-                            <Route path="/telegram">
-
-                            </Route>
-                            <Route path="/gmail">
-
-                            </Route>
-                        </Switch>
+                        </a>
                     </Router>
                 </div>
             </div>

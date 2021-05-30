@@ -1,101 +1,73 @@
-.plan-item{
-    max-width: 370px;
-    text-align: center;
-    background-color: #fff;
-    padding: 70px 80px;
-}
-.plan-element-module{
-    padding: 0 15px;
-    transition:all 0.7s;
-    cursor: pointer;
+.plan-element-module {
+  padding: 0 15px;
+  transition: all 0.7s;
+  cursor: pointer;
 }
 
-.plan-element-module:hover .item-level{
-    color: #F3602D;
+.plan-item p {
+  padding: 12px 0;
+  color: #666;
+  font-size: 16px;
 }
-.plan-element-module:hover .plan-button{
-    background-color: #F3602D;
-    color: #fff;
+.item-level {
+  font-size: 32px;
+  margin-bottom: 18px;
 }
-.plan-item p{
-    padding: 12px 0;
-    color: #666;
-    font-size: 16px;
+.price {
+  display: flex;
+  justify-content: center;
+  padding: 15px 0;
 }
-.item-level{
-    font-size: 32px;
+.dolar {
+  font-size: 18px;
+  margin-top: 14px;
+  font-weight: 700;
 }
-.price{
+.price-num {
+  font-size: 70px;
+  margin-left: 6px;
+}
+.price-mouth {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  margin-bottom: 14px;
+  font-weight: 700;
+}
+.plan-button {
+  margin-top: 24px;
+  padding: 18px 64px;
+  border-radius: 50px;
+  border: none;
+  outline: none;
+  font-size: 13px;
+  font-weight: 600;
+  color: #fff;
+  background-color: #1e85fe;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 1300px) {
+  .price-num {
+    font-size: 60px;
+  }
+}
+@media only screen and (max-width: 980px) {
+  .plan-element-module {
     display: flex;
     justify-content: center;
-    padding: 15px 0;
-}
-.dolar{
-    font-size: 18px;
-    margin-top: 14px;
-    font-weight: 700;
-}
-.price-num{
+    margin-bottom: 30px;
+  }
+  .price-num {
     font-size: 70px;
-    margin-left: 6px;
-}
-.price-mouth{
-    display: flex;
-    justify-content: flex-end;
-    flex-direction: column;
-    margin-bottom: 14px;
-    font-weight: 700;
-}
-.plan-button{
-    margin-top: 24px;
-    padding: 18px 64px;
-    border-radius: 50px;
-    border: none;
-    outline: none;
-    font-size: 13px;
-    font-weight: 600;
-    color: #F3602D;
-    background-color: rgba(242, 88, 34, 0.25);
-    cursor: pointer;
+  }
+  .price p {
+    font-size: 14px;
+  }
 }
 
-@media only screen and (max-width:1300px) {
-    .plan-item {
-        padding: 60px 40px;
-    }
-
-    .price-num{
-        font-size: 60px;
-    }
-}
-@media only screen and (max-width:980px) {
-    .plan-element-module{
-        display: flex;
-        justify-content: center;
-        margin-bottom: 30px;
-    }
-    .plan-item{
-        padding: 70px 80px;
-    }
-    .price-num{
-        font-size: 70px;
-    }
-    .price p{
-        font-size: 14px;
-    }
-}
-@media (max-width:410px) {
-    .plan-item{
-        padding: 70px 55px;
-    }
-}
-@media (max-width:376px) {
-    .plan-item{
-        padding: 50px 40px;
-        max-width: 300px;
-    }
-    .plan-item p{
-        padding: 10px 0;
-    }
-   
+@media (max-width: 376px) {
+  .plan-item p {
+    padding: 10px 0;
+  }
 }

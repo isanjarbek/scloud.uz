@@ -56,8 +56,8 @@ function ITjobs() {
         <div className="it-jobs">
             <div className="container">
                 <div className="jobs-elements">
-                    <h2>Fronted</h2>
-                    <div className="fronted-jobs item">
+                    {/* <h2>Fronted</h2> */}
+                    {/* <div className="fronted-jobs item"> */}
                         <Devitem class="fronted dev-item" image={Pic21} name="JavaScript" />
                         <Devitem class="fronted dev-item" image={Pic20} name="React.JS" />
                         <Devitem class="fronted dev-item" image={Pic19} name="Next.JS" />
@@ -66,10 +66,10 @@ function ITjobs() {
                         <Devitem class="fronted dev-item" image={Pic33} name="Vue.JS" />
                         <Devitem class="fronted dev-item" image={Pic43} name="Sass" />
                         <Devitem class="fronted dev-item" image={Pic44} name="Material UI" />
-                    </div>
+                    {/* </div> */}
 
-                    <h2>Backend</h2>
-                    <div className="backend-jobs item">
+                    {/* <h2>Backend</h2>
+                    <div className="backend-jobs item"> */}
                         <Devitem class="backend dev-item" image={Pic28} name="Node.JS" />
                         <Devitem class="backend dev-item" image={Pic27} name="Python" />
                         <Devitem class="backend dev-item" image={Pic29} name="PHP" />
@@ -77,10 +77,10 @@ function ITjobs() {
                         <Devitem class="backend dev-item" image={Pic26} name="PostgreSQL" />
                         <Devitem class="backend dev-item" image={Pic30} name="GO" />
                         <Devitem class="backend dev-item" image={Pic42} name="Cassandra" />
-                    </div>
+                    {/* </div> */}
 
-                    <h2>Devops</h2>
-                    <div className="devops-jobs item">
+                    {/* <h2>Devops</h2>
+                    <div className="devops-jobs item"> */}
                         <Devitem class="devops dev-item" image={Pic1} name="Promotheus" />
                         <Devitem class="devops dev-item" image={Pic2} name="Loki" />
                         <Devitem class="devops dev-item" image={Pic3} name="Bitbucket" />
@@ -89,18 +89,18 @@ function ITjobs() {
                         <Devitem class="devops dev-item" image={Pic14} name="Grafana" />
                         <Devitem class="devops dev-item" image={Pic15} name="Terraform" />
                         <Devitem class="devops dev-item" image={Pic25} name="Docker" />
-                    </div>
+                    {/* </div>
 
                     <h2>Testing</h2>
-                    <div className="testing-jobs item">
+                    <div className="testing-jobs item"> */}
                         <Devitem class="testing dev-item" image={Pic37} name="You Track" />
                         <Devitem class="testing dev-item" image={Pic38} name="Appium" />
                         <Devitem class="testing dev-item" image={Pic39} name="Cypress" />
                         <Devitem class="testing dev-item" image={Pic40} name="Jmeter" />
-                    </div>
+                    {/* </div>
 
                     <h2>UX/UI</h2>
-                    <div className="desigener-jobs item">
+                    <div className="desigener-jobs item"> */}
                         <Devitem class="designer dev-item" image={Pic22} name="Balsamic" />
                         <Devitem class="designer dev-item" image={Pic23} name="Invision" />
                         <Devitem class="designer dev-item" image={Pic24} name="Figma" />
@@ -111,26 +111,26 @@ function ITjobs() {
                         <Devitem class="designer dev-item" image={Pic46} name="Illustrator" />
                         <Devitem class="designer dev-item" image={Pic47} name="Lottie" />
                         <Devitem class="designer dev-item" image={Pic48} name="Photoshop" />
-                    </div>
+                    {/* </div>
                     
-                    <h2>Infrastructure</h2>
-                    <div className="Infrastructure-jobs item">
+                    <h2>Infrastructure</h2> */}
+                    {/* <div className="Infrastructure-jobs item"> */}
                         <Devitem class="Infrastructure dev-item " image={Pic8} name="Azure" />
                         <Devitem class="Infrastructure dev-item " image={Pic9} name="GCP" />
                         <Devitem class="Infrastructure dev-item " image={Pic10} name="DigitalOcean" />
                         <Devitem class="Infrastructure dev-item " image={Pic11} name="AWS" />
                         <Devitem class="Infrastructure dev-item " image={Pic12} name="Kubernetes" />
-                    </div>
+                    {/* </div>
 
                     <h2>Mobile</h2>
-                    <div className="mobile-jobs item">
+                    <div className="mobile-jobs item"> */}
                         <Devitem class="mobile dev-item" image={Pic5} name="Kotlin" />
                         <Devitem class="mobile dev-item" image={Pic6} name="Android" />
                         <Devitem class="mobile dev-item" image={Pic7} name="Java" />
                         <Devitem class="mobile dev-item" image={Pic16} name="IOS" />
                         <Devitem class="mobile dev-item" image={Pic17} name="Swift" />
                         <Devitem class="mobile dev-item" image={Pic18} name="Flutter" />
-                    </div>
+                    {/* </div> */}
 
 
 

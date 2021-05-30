@@ -9,15 +9,15 @@ import Icon6 from '../../photos/Icon6.png'
 
 function AboutSEO() {
     return (
-        <div className="about-seo">
+        <div className="about-seo" id="imkoniyatlar">
             <div className="row-about-first">
                 <div className="about-first-photo">
                     <img src={SpeedM} alt="" />
                 </div>
                 <div className="about-first-text">
                     <div className="text-content">
-                        <h2>You may ask what <br />
-                        SEO & why do you need it?
+                        <h2>Ushbu xizmatlar <br />
+                        qanday yordam beradi.
                     </h2>
                         <p>Distinctively exploit optimal alignments for intuitive bandwidth.
                         Quickly coordinate e-business applications through revolutionary.
@@ -25,19 +25,16 @@ function AboutSEO() {
                     </div>
                     <div className="maket-elements">
                         <Maket img={Icon4}
-                            text="Social Media Marketing"
-                            matn="Business applications through revolutionary catalysts
-                         for chang the Seamlessly underwhelm dures."
+                            text="Veb ilovalar"
+                            matn="Veb ilovalar orqali o'z biznesingizni internetda rivojlantirasiz. Sotuvlarni online amalga oshira olasiz"
                         />
                         <Maket img={Icon5}
-                            text="Email Marketing"
-                            matn="Business applications through revolutionary catalysts
-                         for chang the Seamlessly underwhelm dures."
+                            text="Mobil ilovalaar"
+                            matn="Mijozlarni doimiy nazoratga olishda, ularning xaridlarini osonlashtirishda qo'llashingiz mumkin"
                         />
                         <Maket img={Icon6}
-                            text="SEO Optimization"
-                            matn="Business applications through revolutionary catalysts
-                         for chang the Seamlessly underwhelm dures."
+                            text="Raqamli marketing"
+                            matn="Brendingizni, mahsulotlaringizni internetda va ijtimoiy tarmoqlarda targ'ib qila olasiz"
                         />
                     </div>
                 </div>

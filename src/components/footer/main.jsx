@@ -1,9 +1,10 @@
 import React from 'react'
-import Logo from '../../photos/logo.png'
+import Logo from '../../photos/Logos/cloud.png'
 import './style.css'
 
 import { FaFacebookF, FaInstagram, FaTelegramPlane } from 'react-icons/fa';
-import { FiMail } from 'react-icons/fi'
+import { FiMail, FiPhoneCall } from 'react-icons/fi'
+import { GrLocation } from "react-icons/gr";
 
 import { BrowserRouter as Router, Route, Switch, Link } from "react-router-dom";
 
@@ -15,12 +16,9 @@ function Footer() {
                     <div className="footer-item footer-logo">
                         <div className="logo">
                             <img src={Logo} alt="" />
-                            <div className="text-logo">
-                                Grow<span className="text-logo-color">Be</span>
-                            </div>
                         </div>
                         <p>
-                            Distinctively exploit optimal alignments for intuitive bandwidth. Quickly coordinate business through revolutionary.
+                            Biznesni rivojlantirish, savdoni oshirish uchun optimal yechimlar. Ishni avtomatlashtirish uchun takliflar.
                         </p>
                         <div className="icon-social">
                             <Router>
@@ -66,35 +64,35 @@ function Footer() {
                     <div className="footer-item footer-company">
                         <h2>Our Company</h2>
                         <ul>
-                            <li>About Us</li>
-                            <li> Our Services</li>
-                            <li>Our Plan</li>
-                            <li>Our Team</li>
-                            <li>Latest News</li>
+                            <li>Biz haqimizda</li>
+                            <li> Xizmatlarimiz</li>
+                            <li>Maqsadimiz</li>
+                            <li>Bizning jamoa</li>
+                            <li>Yangiliklar</li>
                         </ul>
                     </div>
                     <div className="footer-item footer-services">
-                        <h2>Our Services</h2>
+                        <h2>Xizmatlarimiz</h2>
                         <ul>
-                            <li>Digital Marketing </li>
-                            <li>SEO Optimazation</li>
-                            <li>Web Development</li>
-                            <li>Link Building </li>
+                            <li>Veb ilovalar </li>
+                            <li>Mobil ilovalar </li>
+                            <li>Ma'lumotlar tahlili </li>
+                            <li>Raqamli marketing </li>
                             <li>Terms & Privacy</li>
                         </ul>
                     </div>
                     <div className="footer-item footer-contact">
-                        <h2>Contact Us</h2>
+                        <h2>Biz bilan bog'lanish</h2>
                         <ul>
-                            <li><span className="connecting">Email:</span> growbeinfo@gmail</li>
-                            <li><span className="connecting">Phone:</span> +324-9332-5018</li>
-                            <li><span className="connecting">Location:</span> 1370 Orvilly Rot APT, New York, USA</li>
+                            <li><span className="connecting"><FiMail />Gmail:</span> Cloudsolution@gmail.com </li>
+                            <li><span className="connecting"><FiPhoneCall />Bog'lanish:</span> +998 97 346 88 87</li>
+                            <li><span className="connecting"><GrLocation />Manzil:</span> Toshkent, Olmazor t. Beruniy ko'chasi 2B</li>
                         </ul>
                     </div>
                 </div>
 
                 <div className="footer-end">
-                    <p>Copyright © GrowBe 2021. All Rights Reserved.</p>
+                    <p>Copyright © GrowBe 2021. All Rights Reserved.      Powered by "Less is More"</p>
                 </div>
             </div>
         </div>

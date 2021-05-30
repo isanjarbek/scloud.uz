@@ -1,5 +1,4 @@
-import React, { useState } from 'react'
-import './App.css';
+import React, { Component, useState } from 'react'
 
 import Header from './components/header/header'
 import Main from './components/home-page/main'
@@ -15,40 +14,39 @@ import Members from './components/members/main'
 import Clients from './components/clients-part/main'
 import News from './components/news/main'
 import Footer from './components/footer/main'
-import { AlertProvider, useAlert } from './context';
-import ITjobs from './components/IT-jobs/main';
+// import ITjobs from './components/IT-jobs/main';
 
-import Modal from './components/modal';
 
 import SidebarMenu from './components/Drawer/index.jsx'
+import { ContextProvider } from './context';
+// import { Route, Router, Switch } from 'react-router-dom';
 
-function App() {
+export default function App() {
 
   const [open, setOpen] = useState(false);
-
   return (
-    <AlertProvider>
-      <Header open={open} setOpen={setOpen} />
-      <Main />
-      <Logos />
-      <Statistic />
-      <ITjobs />
-      <CardMini />
-      <WrapperItem />
-      <AboutSEO />
-      <StaticNum />
-      <SpeedComp />
-      <Plans />
-      <Members />
-      <Clients />
-      <News />
-      <Footer />
-      <Modal />
+    <>
+      <ContextProvider>
+        <Header open={open} setOpen={setOpen} />
+        <Main />
+        <Logos />
+        <Statistic />
+        {/* <ITjobs /> */}
+        <CardMini />
+        <WrapperItem />
+        <AboutSEO />
+        {/* <StaticNum /> */}
+        <SpeedComp />
+        <Plans />
+        <Members />
+        {/* <Clients /> */}
+        {/* <News /> */}
+        <Footer />
 
-      <SidebarMenu open={open} setOpen={setOpen} />
-    </AlertProvider>
-
+        <SidebarMenu open={open} setOpen={setOpen} />
+      </ContextProvider>
+    </>
   );
 }
 
-export default App;
+

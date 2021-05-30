@@ -3,7 +3,7 @@ import ClinetItem from './client-item/main'
 import './style.css'
 
 import Halson from '../../photos/halson.png'
-import Selena from '../../photos/selena.png'
+// import Selena from '../../photos/selena.png'
 
 import SwiperCore, { Navigation, Pagination, Scrollbar, Autoplay, A11y } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -15,7 +15,7 @@ SwiperCore.use([Navigation, Pagination, Scrollbar, Autoplay, A11y]);
 
 function Clients() {
     return (
-        <div className="clients">
+        <div className="clients" id="about">
 
             <div className="clients-part">
                 <div className="client-paragrf">
@@ -63,7 +63,7 @@ function Clients() {
                                 blanditiis praesentium voluptatum deleniti atque corrupti
                                 quos dolores et quas molestias excepturi sint 
                                 cupiditate non provident."
-                                pic={Selena}
+                                // pic={Selena}
                                 name="Selena Roy"
                                 job="UI Designer"
                             />

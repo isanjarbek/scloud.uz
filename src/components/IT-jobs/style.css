@@ -4,6 +4,8 @@
 
 .jobs-elements{
     padding: 0 12px;
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
 }
 .jobs-elements h2{
     font-size: 24px;

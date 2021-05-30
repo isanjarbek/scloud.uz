@@ -11,20 +11,20 @@ function CardMini() {
         <div className="card-mini">
             <div className="container">
                 <div className="card-mini-item">
-                    <MiniElement 
+                    <MiniElement
                         backclr="backclr1 element-img"
-                        img={Image1} 
-                        paragrf="Grow Your Business" 
-                        notes="Leverage agile frameworks to provide a robust synopsis for high level overviews." link="Read More..."/>
-                    <MiniElement  
+                        img={Image1}
+                        paragrf="Foydani oshirish"
+                        notes="Avtomatlashtirish natijasida xarajatlar kamayadi, savdo nazoratga olinadi" link="Read More..." />
+                    <MiniElement
                         backclr="backclr2 element-img"
-                        img={Image2} paragrf="Get Quality Ieads"
-                        notes="Leverage agile frameworks to provide a robust synopsis for high level overviews." link="Read More..."/>
-                    <MiniElement 
-                        backclr="backclr3 element-img" 
-                        img={Image3} 
-                        paragrf="Drive More Sales"
-                        notes="Leverage agile frameworks to provide a robust synopsis for high level overviews." link="Read More..."/>
+                        img={Image2} paragrf="Servis rivojlanadi"
+                        notes="Mijozlar bilan muloqot vaqti qisqaradi, mijozlar kutishiga xojat qolmaydi.." link="Read More..." />
+                    <MiniElement
+                        backclr="backclr3 element-img"
+                        img={Image3}
+                        paragrf="Nazoratga olinadi"
+                        notes="Har bir komanda, har bir protses nazoratga olinadi" link="Read More..." />
                 </div>
             </div>
         </div>

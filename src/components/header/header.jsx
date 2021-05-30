@@ -1,13 +1,17 @@
 import React from 'react'
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import './header.css'
 import Button from '../button/button.jsx'
 import { IconButton } from '@material-ui/core';
-import { BsListNested, BsX } from "react-icons/bs";
+import { BsX } from "react-icons/bs";
+import { RiMenu4Fill } from "react-icons/ri";
 
-import Logo from '../../photos/logo.png'
+import Logo from '../../photos/Logos/cloud.png'
+
+import { HashLink as Link } from 'react-router-hash-link'
 
 function Header({ open, setOpen }) {
+
 
     const handleOpen = () => {
         setOpen(true)
@@ -22,59 +26,34 @@ function Header({ open, setOpen }) {
             <div className="container">
                 <div className="navigation">
                     <div className="logo">
-                        <img src={Logo} alt="" />
-                        <div className="text-logo">
-                            Grow<span className="text-logo-color">Be</span>
-                        </div>
+                        <a href="/home">
+                            <img src={Logo} alt="" />
+                        </a>
                     </div>
                     <Router>
                         <div className="navbar">
                             <ul>
+
+
                                 <li>
-                                    <Link to="/" >Home</Link>
+                                    <Link smooth to="#xizmatlar">Xizmatlar</Link>
                                 </li>
                                 <li>
-                                    <Link to="/about">About Us</Link>
+                                    <Link smooth to="#imkoniyatlar">Imkoniyatlar</Link>
                                 </li>
                                 <li>
-                                    <Link to="/services">Services</Link>
+                                    <Link smooth to="#team" >Jamoa</Link>
                                 </li>
                                 <li>
-                                    <Link to="/">Features</Link>
+                                    <Link smooth to="/blog">Blog</Link>
                                 </li>
-                                <li>
-                                    <Link to="/team" >Team</Link>
-                                </li>
-                                <li>
-                                    <Link to="/blog">Blog</Link>
-                                </li>
-                                <li>
-                                    <Link to="/contact">Contact</Link>
-                                </li>
+
                             </ul>
 
-                            <Switch>
-                                <Route path="/about">
-
-                                </Route>
-                                <Route path="/services">
-
-                                </Route>
-                                <Route path="/team">
-
-                                </Route>
-                                <Route path="/blog">
-
-                                </Route>
-                                <Route path="/contact" >
-
-                                </Route>
-                                <Route path="/">
-
-                                </Route>
-                            </Switch>
                             <div className="started">
-                                <Button name="get-started" text="Get Started" />
+                                <Link smooth to="#bog'lanish">
+                                    <Button name="get-started" text="Bog'lanish" />
+                                </Link>
                             </div>
                         </div>
                     </Router>
@@ -86,13 +65,13 @@ function Header({ open, setOpen }) {
                                     <BsX />
                                 </IconButton>
                                 : <IconButton size="small" onClick={handleOpen} >
-                                    <BsListNested />
+                                    <RiMenu4Fill />
                                 </IconButton>
                         }
                     </div>
                 </div>
             </div>
-        </div>
+        </div >
     )
 }
 

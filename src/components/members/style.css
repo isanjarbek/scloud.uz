@@ -1,53 +1,56 @@
-.team-part{
-    padding: 80px 0;
+.team-part {
+  padding: 80px 0;
 }
-.members{
+.members {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+  flex-wrap: wrap;
+}
+.team-members {
+  text-align: center;
+}
+.team-members h2 {
+  margin: 0 0 15px;
+  font-size: 38px;
+}
+.team-members p {
+  font-size: 16px;
+  color: #666;
+  max-width: 460px;
+  margin: 0 auto;
+}
+@media only screen and (max-width: 1300px) {
+  .team-members h2 {
+    font-size: 36px;
+  }
+}
+@media only screen and (max-width: 980px) {
+  .members {
     display: flex;
-    justify-content: space-between;
-    margin-top: 50px;
-    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .team-part {
+    padding: 50px 0 20px;
+  }
 }
-.team-members{
-    text-align: center;
-}
-.team-members h2{
-    margin: 0 0 15px;
-    font-size: 38px;
-}
-.team-members p{
-    font-size: 16px;
-    color: #666;
-    max-width: 460px;
-    margin: 0 auto;
-}
-@media only screen and (max-width:1300px) {
-    .team-members h2{
-            font-size: 36px;
-    }
-}
-@media only screen and (max-width:980px) {
-    .members{
-        display: flex;
-        justify-content: center;
-    }
-    .team-part{
-        padding: 50px 0 20px;
-    }
-}
-@media (max-width:611px) {
-    .members{
-        display: block;
-        margin-top: 30px;
-    }
-    .team-members h2{
-        font-size: 28px;
-        line-height: 32px;
-    }
-    
+@media (max-width: 611px) {
+  .members {
+    display: block;
+    margin-top: 30px;
+  }
+  .team-members h2 {
+    font-size: 28px;
+    line-height: 32px;
+  }
 }
 @media (max-width: 376px) {
-    .team-members{
-        max-width: 320px;
-        margin: 0 auto;
-    }
+  .team-members {
+    max-width: 320px;
+    margin: 0 auto;
+  }
+}
+
+.icon-like path {
+  fill: blue !important;
 }

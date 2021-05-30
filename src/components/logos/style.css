@@ -4,6 +4,22 @@
 .img-logos{
     display: flex;
     justify-content: space-between;
+    padding: 0 12px;
+    width: 100%;
+    animation: marquee 20s infinite;
+}
+.img-logos img{
+    width: 90px;
+    height: 90px;
+}
+
+@keyframes marquee{
+    0%{
+        left: 0;
+    }
+    100%{
+        left: -100%;
+    }
 }
 
 @media only screen and (max-width:1300px) {
@@ -12,15 +28,13 @@
     }
 }
 @media only screen and (max-width:900px) {
-    .img-logos{
-        flex-wrap: wrap;
-    }
     .img-logos img{
         max-width: 90px;
     }
 }
-@media (max-width:611px) {
-    .logos{
-        display: none;
+@media (max-width:760px) {
+    .img-logos .swiper-slide{
+        display: flex;
+        justify-content: center;
     }
 }

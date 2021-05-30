@@ -19,13 +19,13 @@
 }
 
 .swiper-pagination{
-    position: relative;
+    position: absolute;
     margin-top: 50px;
 }
 .swiper-pagination-bullet{
-    background-color: #F25822 !important;
-    width: 12px;
-    height: 12px;
+    background-color: #1e85fe !important;
+    width: 10px;
+    height: 10px;
 }
 @media only screen and (max-width:980px) {
     .cont-prf h2{
