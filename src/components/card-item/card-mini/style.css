@@ -19,6 +19,7 @@
   max-width: 370px;
   padding: 40px 30px 25px;
   cursor: pointer;
+  transition: ease 0.3s;
 }
 
 .mini-element:hover {
@@ -37,7 +38,7 @@
   padding: 20px 0 15px;
 }
 .link {
-  font-size: 11px;
+  font-size: 13px !important;
   font-weight: bold;
   color: #1e85fe !important;
 }
@@ -58,4 +59,12 @@
     padding: 15px 0;
   }
 }
-    
+@media (max-width: 551px) {
+  .mini-element h2{
+    font-size: 26px;
+  }
+  .mini-element p{
+    font-size: 17px;
+  }
+  
+}

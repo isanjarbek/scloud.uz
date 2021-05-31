@@ -89,7 +89,7 @@
   }
 
   .footer-logo p {
-    font-size: 12px;
+    font-size: 18px;
     line-height: 18px;
   }
 
@@ -105,25 +105,38 @@
   .footer-services {
     width: 50%;
     margin: 0;
-    padding: 30px 0 0 12px;
+    padding: 40px 0 0 12px;
   }
   .icon-social {
     margin-top: 15px;
     gap: 20px;
   }
   .footer-item h2 {
-    font-size: 20px;
+    font-size: 22px;
   }
   .footer-item ul,
   .footer-logo p {
     margin-top: 15px;
+    letter-spacing: 0.4px;
   }
   .footer-item ul li {
-    font-size: 12px;
-    padding-bottom: 12px;
+    font-size: 18px;
+    padding-bottom: 18px;
   }
   .footer-end p {
-    font-size: 12px;
+    font-size: 18px;
     padding: 15px;
   }
+}
+@media (max-width: 376px) {
+   .footer-item{
+     width: 100%;
+   }
+   .footer-company ul li,
+   .footer-services ul li{
+    padding: 14px 0;
+   }
+   .footer-contact ul li{
+     padding: 16px 0;
+   }
 }

@@ -5,12 +5,18 @@
   display: flex;
   justify-content: space-between;
 }
-
+@media (max-width:980px) {
+  .mini-element{
+    width: 33.3%;
+  }
+}
 @media only screen and (max-width: 768px) {
   .card-mini-item {
     display: block;
+    
   }
   .mini-element {
+    width: 100%;
     margin: 0 auto;
     padding: 40px 30px 25px;
   }

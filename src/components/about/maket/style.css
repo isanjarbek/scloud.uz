@@ -1,8 +1,12 @@
+.maket-elements{
+  margin-top: 30px;
+}
 .maket-item {
   display: flex;
+  align-items: center;
   padding: 17px 30px;
   cursor: pointer;
-  transition: ease 0.7s;
+  transition: ease 0.3s;
 }
 .maket-item:hover {
   box-shadow: 28px 28px 69px #cecece, -28px -28px 69px #f2f2f2;
@@ -18,34 +22,38 @@
   color: #000;
 }
 .maket-txt p {
-  font-size: 15px;
+  font-size: 16px;
   color: #666;
   padding-top: 8px;
 }
 @media (max-width: 611px) {
-  .maket-txt p {
-    font-size: 12px;
-    padding-top: 6px;
-  }
-
   .maket-item:hover {
     -webkit-box-shadow: none;
     -moz-box-shadow: none;
     box-shadow: none;
   }
 }
-@media (max-width: 376px) {
-  .maket-item {
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
-    padding: 20px;
+@media (max-width:551px) {
+  .maket-item h2{
+    font-size: 22px;
+  }
+  .maket-item p{
+    font-size: 16px;
   }
   .maket-item img {
-    width: 70px;
-    height: 70px;
+    width: 80px;
+    height: 80px;
+  }
+}
+@media (max-width:426px) {
+  .maket-item {
+    display: block;
+    padding: 20px;
   }
   .maket-txt {
     margin: 20px 0 0;
+  }
+  .maket-item h2{
+    font-size: 26px;
   }
 }

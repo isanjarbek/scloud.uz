@@ -26,7 +26,7 @@
   outline: none;
   border-radius: 30px;
 }
-@media (max-width: 410px) {
+@media (max-width: 426px) {
   .right-content {
     display: none;
   }

@@ -2,6 +2,7 @@
   padding: 50px 70px;
   text-align: center;
   border: 1px solid #eee;
+  transition: ease-in-out 0.3s ;
 }
 .m-item img {
   width: 130px;
@@ -11,12 +12,11 @@
 }
 
 .m-item:hover {
-  /* box-shadow: 28px 28px 71px #cacaca, -28px -28px 71px #f6f6f6; */
-  /* box-shadow: 19px 19px 70px #d9d9d9, -19px -19px 70px #e7e7e7; */
   box-shadow: 5px 5px 25px #cacaca, -5px -5px 25px #f6f6f6;
 }
 .m-item:hover .item-name {
   color: #1e85fe;
+  transition: ease-in-out 0.7s ;
 }
 .m-item h2 {
   font-size: 24px;
@@ -31,11 +31,12 @@
   display: flex;
   margin-top: 20px;
   justify-content: space-between;
+  
 }
 .icon-social svg {
   color: #aaa;
-  width: 14px;
-  height: 14px;
+  width: 18px;
+  height: 18px;
 }
 .icon:hover .fa-icon {
   color: #fff;
@@ -44,8 +45,8 @@
   background-color: #1e85fe;
 }
 .icon {
-  width: 20px;
-  height: 20px;
+  width: 22px;
+  height: 22px;
   border-radius: 50%;
   display: flex;
   align-items: center;

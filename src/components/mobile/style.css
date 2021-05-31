@@ -4,6 +4,9 @@
 .mobile-navbar ul li {
   width: 100%;
 }
+.mobile-navbar a {
+  text-decoration: none;
+}
 .mobile-navbar ul li {
   list-style: none;
   padding: 20px 0;

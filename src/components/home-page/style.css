@@ -61,7 +61,7 @@
 @media only screen and (max-width: 980px) {
   .main-text h2 {
     font-size: 35px;
-    line-height: 43px;
+    line-height: 39px;
   }
 }
 @media only screen and (max-width: 768px) {
@@ -71,15 +71,12 @@
   .main-text {
     text-align: center;
     padding: 0 12px;
+    margin-top: 30px;
   }
   .main-buttons {
     display: flex;
     justify-content: center;
     margin-top: 20px;
-  }
-  .main-text h2 {
-    font-size: 30px;
-    line-height: 33px;
   }
 }
 @media (max-width: 611px) {
@@ -88,10 +85,18 @@
     padding: 30px 0;
   }
 }
+@media (max-width: 551px) {
+  .main-text h2 {
+    font-size: 32px;
+  }
+  .main-text p {
+    font-size: 20px;
+  }
+}
 @media (max-width: 481px) {
   .main-text h2 {
-    font-size: 24px;
-    line-height: 28px;
+    font-size: 32px;
+    line-height: 32px;
   }
 }
 @media (max-width: 376px) {

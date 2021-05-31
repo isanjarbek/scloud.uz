@@ -85,13 +85,15 @@ function Footer() {
                         <h2>Biz bilan bog'lanish</h2>
                         <ul>
                             <li>
-                                <span className="connecting"><FiMail />Gmail:</span>Cloudsolution@gmail.com </li>
+                                <span className="connecting"><FiMail />Gmail:</span>
+                                <a href="mailto:csolution.uz@gmail.com" target="_blank">Cloudsolution@gmail.com </a>
+                            </li>
                             <li >
                                 <span className="connecting"><FiPhoneCall />Bog'lanish:</span>
-                                <a href="tel:+998 97 346 88 87"> +998 97 346 88 87</a>
+                                <a href="tel:+998 97 346 88 87" target="_blank"> +998 97 346 88 87</a>
                             </li>
                             <li><span className="connecting"><GrLocation />Manzil:</span>
-                                <a href="https://maps.google.com/maps?q=41.326406,69.230060&ll=41.326406,69.230060&z=16"> Toshkent, Olmazor t. Beruniy ko'chasi 2B </a>
+                                <a href="https://maps.google.com/maps?q=41.326406,69.230060&ll=41.326406,69.230060&z=16" target="_blank"> Toshkent, Olmazor t. Beruniy ko'chasi 2B </a>
                             </li>
                         </ul>
                     </div>

@@ -26,7 +26,10 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  text-align: left;
+  font-size: 16px;
 }
+
 .modal_body::-webkit-scrollbar {
   width: 0;
   background-color: transparent;
@@ -44,7 +47,7 @@
   justify-content: flex-end;
 }
 
-@media (max-width: 410px) {
+@media (max-width: 426px) {
   .modal_body {
     max-width: 300px;
   }

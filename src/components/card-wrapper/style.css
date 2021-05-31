@@ -46,16 +46,14 @@
 
 @media (max-width: 611px) {
   .wrapper_item_menu {
-    padding: 50px 0;
+    padding: 80px 0;
   }
-  .wrapper-paragrf h2 {
-    font-size: 28px;
+  .wrapper-paragrf h2{
+    font-size: 30px;
+    line-height: 31px;
   }
+  .wrapper-paragrf p{
+    font-size: 18px;
+  }
+}
 
-}
-@media (max-width: 376px) {
-  .wrapper-paragrf h2 {
-    font-size: 24px;
-    line-height: 28px;
-  }
-}

@@ -1,5 +1,5 @@
 .header {
-  padding: 15px 0;
+  padding: 10px 0;
   position: sticky;
   top: 0;
   left: 0;
@@ -20,8 +20,7 @@
   display: flex;
   align-items: center;
   padding: 0 12px;
-  width: 80px;
-  height: 55px;
+  width: 90px;
 }
 .logo img {
   width: 100%;
@@ -54,7 +53,6 @@
 .get-started {
   padding: 12px 27px;
   border-radius: 30px;
-  /* background-color: #f25822; */
   border: none;
   outline: none;
   color: #fff;
@@ -98,12 +96,13 @@
     max-width: 490px;
   }
   .logo {
-    max-width: 60px;
+    max-width: 76px;
   }
   .logo img {
     width: 100%;
   }
 }
+
 @media (max-width: 481px) {
   .container {
     max-width: 400px;

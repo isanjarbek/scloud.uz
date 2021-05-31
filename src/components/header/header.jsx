@@ -52,10 +52,10 @@ function Header({ open, setOpen }) {
                     <div className="header-mobile"  >
                         {
                             open
-                                ? <IconButton size="small" onClick={handleOpen}>
+                                ? <IconButton size="medium" onClick={handleOpen}>
                                     <BsX />
                                 </IconButton>
-                                : <IconButton size="small" onClick={handleOpen} >
+                                : <IconButton size="medium" onClick={handleOpen} >
                                     <RiMenu4Fill />
                                 </IconButton>
                         }

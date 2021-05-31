@@ -24,7 +24,7 @@
   justify-content: space-between;
 }
 .type-item input {
-  padding: 17px 20px;
+  padding: 18px 25px;
   background-color: #eee;
   outline: none;
   border: none;
@@ -117,14 +117,20 @@ input::-webkit-inner-spin-button {
     width: 100%;
     border-radius: 30px;
     margin-bottom: 15px;
+    font-size: 16px;
   }
   .line {
     display: none;
   }
 }
-@media (max-width: 376px) {
-  .text-content h2 {
-    font-size: 24px;
+@media (max-width:551px) {
+  .text-content h2{
+    font-size: 30px;
     line-height: 28px;
   }
+  .text-content p{
+    font-size: 18px;
+    letter-spacing: 0.5px;
+  }
 }
+

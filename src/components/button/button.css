@@ -7,6 +7,7 @@
   color: #fff;
   font-size: 12px;
   cursor: pointer;
+  letter-spacing: 1px;
 }
 .started-now {
   padding: 15px 36px;
@@ -15,10 +16,11 @@
   border: none;
   outline: none;
   color: #fff;
-  font-size: 15px;
+  font-size: 16px;
   cursor: pointer;
   font-weight: 600;
   letter-spacing: 0.7px;
+  letter-spacing: 1px;
 }
 .btn{
   padding: 15px 65px;
@@ -27,7 +29,7 @@
   border: none;
   outline: none;
   color: #fff;
-  font-size: 15px;
+  font-size: 16px;
   cursor: pointer;
   font-weight: 600;
   letter-spacing: 0.7px;

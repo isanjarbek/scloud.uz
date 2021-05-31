@@ -13,7 +13,6 @@
     padding:  0 12px;
 }
 .static-text h2{
-    max-width: 409px;
     font-size: 42px;
     font-weight: 700;
     line-height: 50px
@@ -46,10 +45,7 @@
     .static-text h2{
         font-size: 32px;
     }
-    /* .static-text p{
-        font-size: 12px;
-        line-height: 20px;
-    } */
+   
     .static-photo{
         max-width: 390px;
     }
@@ -59,7 +55,7 @@
 }
 @media only screen and (max-width:768px) {
     .statistic{
-        padding: 30px 0;
+        padding: 60px 0;
     }
     .static-content{
         flex-direction: column-reverse;
@@ -71,7 +67,7 @@
     }
     .static-text h2{
         margin: 0 auto;
-        font-size: 28px;
+        font-size: 30px;
         line-height: 32px;
     }
     .static-text p{
@@ -82,9 +78,15 @@
     }
     
 }
+@media (max-width:551px) {
+    .static-text p{
+        font-size: 18px;
+        letter-spacing: 0.3px;
+    }
+}
 @media (max-width: 376px) {
     .static-text h2{
-        font-size: 24px;
-        line-height: 28px;
+        font-size: 30px;
+        line-height: 31px;
     }
 }
