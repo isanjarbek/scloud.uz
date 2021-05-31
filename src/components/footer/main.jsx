@@ -84,15 +84,21 @@ function Footer() {
                     <div className="footer-item footer-contact">
                         <h2>Biz bilan bog'lanish</h2>
                         <ul>
-                            <li><span className="connecting"><FiMail />Gmail:</span> Cloudsolution@gmail.com </li>
-                            <li><span className="connecting"><FiPhoneCall />Bog'lanish:</span> +998 97 346 88 87</li>
-                            <li><span className="connecting"><GrLocation />Manzil:</span> Toshkent, Olmazor t. Beruniy ko'chasi 2B</li>
+                            <li>
+                                <span className="connecting"><FiMail />Gmail:</span>Cloudsolution@gmail.com </li>
+                            <li >
+                                <span className="connecting"><FiPhoneCall />Bog'lanish:</span>
+                                <a href="tel:+998 97 346 88 87"> +998 97 346 88 87</a>
+                            </li>
+                            <li><span className="connecting"><GrLocation />Manzil:</span>
+                                <a href="https://maps.google.com/maps?q=41.326406,69.230060&ll=41.326406,69.230060&z=16"> Toshkent, Olmazor t. Beruniy ko'chasi 2B </a>
+                            </li>
                         </ul>
                     </div>
                 </div>
 
                 <div className="footer-end">
-                    <p>Copyright © GrowBe 2021. All Rights Reserved.      Powered by "Less is More"</p>
+                    <p>Copyright © Cloud Solution 2021. All Rights Reserved.Powered by "Less is More"</p>
                 </div>
             </div>
         </div>

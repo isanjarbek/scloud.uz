@@ -55,7 +55,7 @@ function Mobile({ setOpen }) {
                                 </Route>
                             </Switch> */}
                             <Link smooth to="#bog'lanish" >
-                                <div className="started" onClick={handleOpen}>
+                                <div className="mobile-btn" onClick={handleOpen}>
                                     <Button name="started-now" text="Bog'lanish" />
                                 </div>
                             </Link>
