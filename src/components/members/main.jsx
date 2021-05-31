@@ -9,7 +9,7 @@ import Bobur from '../../photos/bobur.png'
 
 function Members() {
     return (
-        <div className="team-part" id="team">
+        <div className="team-part" id="jamoa">
             <div className="container">
                 <div className="team-members">
                     <h2>Bizning Jamoamiz</h2>

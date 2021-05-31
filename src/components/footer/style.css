@@ -1,129 +1,125 @@
-.footer{
-    background-color: #f3f3f3;
+.footer {
+  background-color: #f3f3f3;
 }
-.footer-elements{
-    display: flex;
-    justify-content: space-between;
-    padding: 100px 0 50px;
-    border-bottom: 1px solid #ccc;
-    flex-wrap: wrap;
+.footer-elements {
+  display: flex;
+  justify-content: space-between;
+  padding: 100px 0 50px;
+  border-bottom: 1px solid #ccc;
+  flex-wrap: wrap;
 }
-.footer-logo{
-    max-width: 270px;
+.footer-logo {
+  max-width: 270px;
 }
-.logo{
-    padding: 0;
+.logo {
+  padding: 0;
 }
-.footer-logo p{
-    font-size: 16px;
-    color: #666;
-    line-height: 23px;
-    margin-top: 40px;
+.footer-logo p {
+  font-size: 16px;
+  color: #666;
+  line-height: 23px;
+  margin-top: 40px;
 }
 .footer-company,
-.footer-services{
-    max-width: 156px;
+.footer-services {
+  max-width: 156px;
 }
 .footer-company ul li::marker,
-.footer-services ul li::marker{
-    color: #1e85fe;
+.footer-services ul li::marker {
+  color: #1e85fe;
 }
-.footer-contact{
-    max-width: 220px;
+.footer-contact {
+  max-width: 220px;
 }
-.footer-contact ul li{
-    list-style: none;
+.footer-contact ul li {
+  list-style: none;
 }
-.connecting{
-    font-weight: 700;
-    display: flex;
-    align-items: center;
+.connecting {
+  font-weight: 700;
+  display: flex;
+  align-items: center;
 }
-.footer-item{
-    margin: 0 12px;
-    max-width: 25%;
+.footer-item {
+  margin: 0 12px;
+  max-width: 25%;
 }
-.footer-item ul{
-    margin-top: 40px;
+.footer-item ul {
+  margin-top: 40px;
 }
 .footer-item ul li {
-    padding-bottom: 15px;
-    margin-left: 15px;
+  padding-bottom: 15px;
+  margin-left: 15px;
 }
-.footer-contact ul li{
+.footer-contact ul li {
+  margin: 0;
+}
+.footer-contact ul li svg {
+  margin-right: 5px;
+}
+.footer-end p {
+  text-align: center;
+  font-size: 16px;
+  color: #888;
+  padding: 20px 0;
+}
+@media only screen and (max-width: 980px) {
+  .footer-elements {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .footer-item {
+    max-width: 100%;
+  }
+  .footer-item ul,
+  .footer-logo p {
+    margin-top: 20px;
+  }
+  .footer-services,
+  .footer-contact {
+    margin-top: 30px;
+  }
+}
+@media (max-width: 611px) {
+  .footer-elements {
+    padding: 50px 0;
+  }
+
+  .footer-logo p {
+    font-size: 12px;
+    line-height: 18px;
+  }
+
+  .footer-elements {
+    display: flex;
+    width: 100%;
+  }
+  .footer-logo,
+  .footer-contact {
+    width: 100%;
+  }
+  .footer-company,
+  .footer-services {
+    width: 50%;
     margin: 0;
-}
-.footer-contact ul li svg{
-    margin-right: 5px;
-}
-.footer-end p{
-    text-align: center;
-    font-size: 16px;
-    color: #888;
-    padding: 20px 0;
-}
-@media only screen and (max-width:980px) {
-    .footer-elements{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-    }
-    .footer-item{
-        max-width: 100%;
-    }
-    .footer-item ul,
-    .footer-logo p{
-        margin-top: 20px;
-    }
-    .footer-services,
-    .footer-contact{
-        margin-top: 30px;
-    }
-}
-@media (max-width:611px) {
-    .footer-elements{
-        padding: 50px 0;
-    }
-    .logo {
-        max-width: 22px;
-    }
-    .footer-logo p{
-        font-size: 12px;
-        line-height: 18px;
-    }
-    .logo img{
-        width: 100%;
-    }
-    .footer-elements{
-        display: flex;
-        width: 100%;
-    }
-    .footer-logo,
-    .footer-contact{
-        width: 100%;
-    }
-    .footer-company,
-    .footer-services{
-        width: 50%;
-        margin: 0;
-        padding: 30px 0 0 12px;   
-    }
-    .icon-social{
-        margin-top: 15px;
-        gap: 20px;
-    }
-    .footer-item h2{
-        font-size: 20px;
-    }
-    .footer-item ul,
-    .footer-logo p {
-        margin-top: 15px;
-    }
-    .footer-item ul li{
-        font-size: 12px;
-        padding-bottom: 12px;
-    }
-    .footer-end p{
-        font-size: 12px;
-        padding: 15px;
-    }
+    padding: 30px 0 0 12px;
+  }
+  .icon-social {
+    margin-top: 15px;
+    gap: 20px;
+  }
+  .footer-item h2 {
+    font-size: 20px;
+  }
+  .footer-item ul,
+  .footer-logo p {
+    margin-top: 15px;
+  }
+  .footer-item ul li {
+    font-size: 12px;
+    padding-bottom: 12px;
+  }
+  .footer-end p {
+    font-size: 12px;
+    padding: 15px;
+  }
 }

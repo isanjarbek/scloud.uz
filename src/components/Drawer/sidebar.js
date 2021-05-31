@@ -6,7 +6,7 @@ export const useSidebarMenuStyles = makeStyles((theme) => ({
     },
     drawerPaper: {
         width: '100%',
-        marginTop: 70,
+        marginTop: 82,
         backgroundColor: '#fafafa',
     },
 

@@ -14,7 +14,7 @@ const ModalWindow = props => {
 
     // }
     return (
-        <div className={`modal__wrapper ${props.isOpened ? 'open' : 'close'}`} style={{ ...props.style }}>
+        <div className={`modal__wrapper ${props.isOpened ? 'open' : 'close'}`} style={{ ...props.style }} onClick={props.onModalClose} >
             <div className="modal_body">
                 <div className="modal_close" onClick={props.onModalClose}>
                     <IconButton>×</IconButton>

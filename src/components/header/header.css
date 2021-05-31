@@ -26,15 +26,14 @@
 .logo img {
   width: 100%;
 }
+
 .text-logo {
   font-size: 24px;
   color: #000;
   font-weight: 600;
   margin-left: 14px;
 }
-.text-logo-color {
-  color: #f25822;
-}
+
 .navbar {
   display: flex;
   align-items: center;
@@ -55,7 +54,7 @@
 .get-started {
   padding: 12px 27px;
   border-radius: 30px;
-  background-color: #f25822;
+  /* background-color: #f25822; */
   border: none;
   outline: none;
   color: #fff;
@@ -97,6 +96,12 @@
 @media (max-width: 611px) {
   .container {
     max-width: 490px;
+  }
+  .logo {
+    max-width: 60px;
+  }
+  .logo img {
+    width: 100%;
   }
 }
 @media (max-width: 481px) {

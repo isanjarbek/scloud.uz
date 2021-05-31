@@ -1,128 +1,130 @@
-.speed-comp{
-    padding: 60px 0 80px;
+.speed-comp {
+  padding: 60px 0 80px;
 }
-.speed-comp-elements{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.speed-comp-elements {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-.left-item{
-    padding:0 12px;   
+.left-item {
+  padding: 0 12px;
 }
-.left-item h2{
-    font-size: 38px;
-    color: #000;
-    font-weight: 700;
+.left-item h2 {
+  font-size: 38px;
+  color: #000;
+  font-weight: 700;
 }
-.left-item p{
-    max-width: 458px;
+.left-item p {
+  max-width: 458px;
+  font-size: 16px;
+  color: #666;
+}
+.type-item {
+  display: flex;
+  justify-content: space-between;
+}
+.type-item input {
+  padding: 17px 20px;
+  background-color: #eee;
+  outline: none;
+  border: none;
+}
+.input-elements {
+  display: flex;
+}
+.line {
+  height: 100%;
+  background-color: #ccc;
+  width: 1.5px;
+}
+.text-type {
+  border-bottom-left-radius: 30px;
+  border-top-left-radius: 30px;
+}
+.email-type {
+  border-bottom-right-radius: 30px;
+  border-top-right-radius: 30px;
+}
+.right-item {
+  max-width: 54%;
+}
+.right-item img {
+  width: 100%;
+}
+.submit {
+  margin-left: 20px;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+@media only screen and (max-width: 1300px) {
+  .left-item h2 {
+    font-size: 36px;
+  }
+  .left-item p {
+    font-size: 15px;
+  }
+}
+
+@media only screen and (max-width: 980px) {
+  .speed-comp-elements {
+    flex-direction: column-reverse;
+  }
+  .speed-comp {
+    padding: 50px 0;
+  }
+  .left-item h2 {
+    font-size: 32px;
+    text-align: center;
+  }
+  .left-item p {
     font-size: 16px;
-    color: #666;
-}
-.type-item{
+    line-height: 18px;
+    text-align: center;
+  }
+  .type-item {
+    display: block;
+  }
+  .started,
+  .input-elements {
     display: flex;
-    justify-content: space-between;
-}
-.type-item input{
-    padding: 17px 20px;
-    background-color: #eee;
-    outline: none;
-    border: none;
-}
-.input-elements{
+    justify-content: center;
+  }
+  .line {
+    height: 50px;
+  }
+  .started {
     display: flex;
+  }
+  .submit {
+    margin: 10px 0 0;
+  }
+  .right-item {
+    max-width: 600px;
+  }
 }
-.line{
-    height: 100%;
-    background-color: #ccc;
-    width: 1.5px;
-}
-.text-type{
-    border-bottom-left-radius:30px;
-    border-top-left-radius: 30px;
-}
-.email-type{
-    border-bottom-right-radius:30px;
-    border-top-right-radius: 30px;
-}
-.right-item{
-    max-width: 54%;
-}
-.right-item img{
+@media (max-width: 611px) {
+  .left-item h2 {
+    font-size: 28px;
+    line-height: 32px;
+  }
+  .input-elements {
+    display: block;
+  }
+  .text-type,
+  .email-type {
     width: 100%;
+    border-radius: 30px;
+    margin-bottom: 15px;
+  }
+  .line {
+    display: none;
+  }
 }
-.submit{
-    margin-left: 20px;
-}
-
-@media only screen and (max-width:1300px) {
-    .left-item h2{
-        font-size: 36px;
-
-    }
-    .left-item p{
-        font-size: 15px;
-    }
-}
-
-@media only screen and (max-width:980px){
-   .speed-comp-elements{
-      flex-direction: column-reverse;
-   }
-    .speed-comp{
-        padding: 50px 0;
-    }
-    .left-item h2{
-        font-size: 32px;
-        text-align: center;
-    }
-    .left-item p{
-        font-size: 16px;
-        line-height: 18px;
-        text-align: center;
-    }
-    .type-item{
-        display: block;
-    }
-    .started,
-    .input-elements{
-        display: flex;
-        justify-content: center;
-    }
-    .line{
-        height: 50px;
-    }
-    .started{
-        display: flex;
-    }
-    .submit{
-        margin: 10px 0 0;
-    }
-    .right-item{
-        max-width: 600px;
-    }
-}
-@media (max-width:611px) {
-    .left-item h2{
-        font-size: 28px;
-        line-height: 32px;
-    }
-    .input-elements{
-        display: block;
-    }
-    .text-type,
-    .email-type{
-        width: 100%;
-        border-radius: 30px;
-        margin-bottom: 15px;
-    }
-    .line{
-        display: none;
-    }
-}
-@media (max-width:376px) {
-    .text-content h2{
-        font-size: 24px;
-        line-height: 28px;
-    }
+@media (max-width: 376px) {
+  .text-content h2 {
+    font-size: 24px;
+    line-height: 28px;
+  }
 }

@@ -17,3 +17,23 @@ body {
   font-family: "Gilroy";
   src: url("./fonts/Gilroy-Regular.ttf");
 }
+
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #1e85fe;
+  border-radius: 20px;
+}
+
+/* ::selection {
+  color: gold;
+  background-color: grey;
+} */
+
+/* ::-webkit-scrollbar-button {
+  background-color: red;
+  color: red;
+  border-radius: 50%;
+} */

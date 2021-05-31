@@ -4,7 +4,8 @@ import './modal2.css'
 
 const Modal2 = props => {
     return (
-        <div className={`modal__wrapper ${props.isOpened ? 'open' : 'close'}`} style={{ ...props.style }}>
+        <div className={`modal__wrapper ${props.isOpened ? 'open' : 'close'}`}
+            style={{ ...props.style }} onClick={props.onModalClose}>
             <div className="modal_body body2">
                 <div className="modal_close" onClick={props.onModalClose}>
                     <IconButton>×</IconButton>

@@ -14,7 +14,7 @@ function Main() {
     const [modal, setModal] = useState(false)
 
     return (
-        <div className="main" id="home">
+        <div className="main" id="asosiy"  onModalClose={() => setModal(false)}>
             <div className="container">
                 <div className="main-menu">
                     <div className="main-text">

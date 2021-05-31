@@ -1,29 +1,29 @@
 .mobile-navbar ul li {
-    width: 100%;
+  width: 100%;
 }
-.mobile-navbar ul li{
-    list-style: none;
-    padding: 20px 0;
-    text-align: center;
+.mobile-navbar ul li {
+  list-style: none;
+  padding: 20px 0;
+  text-align: center;
 }
-.mobile-navbar ul li a{
-    text-decoration: none;
-    color: #000;
-    font-size: 24px;
+.mobile-navbar ul li a {
+  text-decoration: none;
+  color: #000;
+  font-size: 24px;
 }
-@media (max-width:611px) {
-    .mobile-navbar ul li{
-        padding: 15px 0;
-    }
-    .mobile-navbar ul li a{
-        font-size: 20px;
-    }
+@media (max-width: 611px) {
+  .mobile-navbar ul li {
+    padding: 15px 0;
+  }
+  .mobile-navbar ul li a {
+    font-size: 20px;
+  }
 }
-@media (max-width:376px) {
-    .mobile-navbar ul li a{
-        font-size: 18px;
-    }
-    .mobile-navbar ul li{
-        padding: 10px 0;
-    }
+@media (max-width: 376px) {
+  .mobile-navbar ul li a {
+    font-size: 18px;
+  }
+  .mobile-navbar ul li {
+    padding: 10px 0;
+  }
 }

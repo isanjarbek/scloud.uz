@@ -25,7 +25,7 @@ function SidebarMenu({ open, setOpen }) {
                 }}
             >
                 <>
-                    <Mobile />
+                    <Mobile open={open} setOpen={setOpen} />
                 </>
             </Drawer>
         </div>

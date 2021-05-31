@@ -1,64 +1,66 @@
 import React from 'react'
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Button from '../button/button'
 import './style.css'
+import { HashLink as Link } from 'react-router-hash-link'
 
-function Mobile() {
+
+function Mobile({ setOpen }) {
+
+    const handleOpen = () => setOpen(prev => !prev)
+
     return (
         <div className="mobile-page">
             <div className="container">
                 <div className="mobile-elements">
-                        <Router>
-                            <div className="mobile-navbar">
-                                <ul>
-                                    <li>
-                                        <Link to="/">Home</Link>
-                                    </li>
-                                    <li>
-                                        <Link to="/about">About Us</Link>
-                                    </li>
-                                    <li>
-                                        <Link to="/services">Services</Link>
-                                    </li>
-                                    <li>
-                                        <Link to="/">Features</Link>
-                                    </li>
-                                    <li>
-                                        <Link to="/team">Team</Link>
-                                    </li>
-                                    <li>
-                                        <Link to="/blog">Blog</Link>
-                                    </li>
-                                    <li>
-                                        <Link to="/contact">Contact</Link>
-                                    </li>
-                                </ul>
+                    <Router>
+                        <div className="mobile-navbar">
+                            <ul>
+                                <li onClick={handleOpen}>
+                                    <Link smooth to="#asosiy"  >Asosiy</Link>
+                                </li>
+                                <li onClick={handleOpen}>
+                                    <Link smooth to="#xizmatlar">Xizmatlar</Link>
+                                </li>
+                                <li onClick={handleOpen}>
+                                    <Link smooth to="#imkoniyatlar"  >Imkoniyatlar</Link>
+                                </li>
+                                <li onClick={handleOpen}>
+                                    <Link smooth to="#jamoa" >Jamoa</Link>
+                                </li>
+                                <li onClick={handleOpen}>
+                                    <Link smooth to="#blog" >Blog</Link>
+                                </li>
 
-                                <Switch>
-                                    <Route path="/about">
-                                        
-                                    </Route>
-                                    <Route path="/services">
+                            </ul>
 
-                                    </Route>
-                                    <Route path="/team">
+                            {/* <Switch>
+                                <Route path="/about">
 
-                                    </Route>
-                                    <Route path="/blog">
+                                </Route>
+                                <Route path="/services">
 
-                                    </Route>
-                                    <Route path="/contact">
+                                </Route>
+                                <Route path="/team">
 
-                                    </Route>
-                                    <Route path="/">
+                                </Route>
+                                <Route path="/blog">
 
-                                    </Route>
-                                </Switch>
-                                <div className="started">
-                                    <Button name="started-now" text="Get Started" />
+                                </Route>
+                                <Route path="/contact">
+
+                                </Route>
+                                <Route path="/">
+
+                                </Route>
+                            </Switch> */}
+                            <Link smooth to="#bog'lanish" >
+                                <div className="started" onClick={handleOpen}>
+                                    <Button name="started-now" text="Bog'lanish" />
                                 </div>
-                            </div>
-                        </Router>
+                            </Link>
+                        </div>
+                    </Router>
                 </div>
             </div>
         </div>

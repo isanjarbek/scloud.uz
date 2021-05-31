@@ -11,30 +11,21 @@ import Logo from '../../photos/Logos/cloud.png'
 import { HashLink as Link } from 'react-router-hash-link'
 
 function Header({ open, setOpen }) {
-
-
-    const handleOpen = () => {
-        setOpen(true)
-    }
-
-    const handleClose = () => {
-        setOpen(false)
-    }
+    const handleOpen = () => setOpen(prev => !prev)
 
     return (
-        <div className="header">
+        <div className="header" id="home">
             <div className="container">
                 <div className="navigation">
-                    <div className="logo">
-                        <a href="/home">
-                            <img src={Logo} alt="" />
-                        </a>
-                    </div>
                     <Router>
+                        <div className="logo">
+                            <Link smooth to="#asosiy">
+                                <img src={Logo} alt="" />
+                            </Link>
+                        </div>
+
                         <div className="navbar">
                             <ul>
-
-
                                 <li>
                                     <Link smooth to="#xizmatlar">Xizmatlar</Link>
                                 </li>
@@ -42,7 +33,7 @@ function Header({ open, setOpen }) {
                                     <Link smooth to="#imkoniyatlar">Imkoniyatlar</Link>
                                 </li>
                                 <li>
-                                    <Link smooth to="#team" >Jamoa</Link>
+                                    <Link smooth to="#jamoa" >Jamoa</Link>
                                 </li>
                                 <li>
                                     <Link smooth to="/blog">Blog</Link>
@@ -61,7 +52,7 @@ function Header({ open, setOpen }) {
                     <div className="header-mobile"  >
                         {
                             open
-                                ? <IconButton size="small" onClick={handleClose}>
+                                ? <IconButton size="small" onClick={handleOpen}>
                                     <BsX />
                                 </IconButton>
                                 : <IconButton size="small" onClick={handleOpen} >

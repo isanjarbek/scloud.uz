@@ -30,9 +30,7 @@
     display: flex;
     justify-content: center;
   }
-  .team-part {
-    padding: 50px 0 20px;
-  }
+  
 }
 @media (max-width: 611px) {
   .members {
