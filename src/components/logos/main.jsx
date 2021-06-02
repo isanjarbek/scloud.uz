@@ -15,6 +15,9 @@ import Logo5 from '../../photos/Logos/kingbook.png'
 import Logo6 from '../../photos/Logos/bao.png'
 import Logo7 from '../../photos/Logos/rosh.png'
 
+import SwiperCore, {  Autoplay} from 'swiper';
+SwiperCore.use([ Autoplay]);
+
 function Logos() {
     return (
         <div className="logos">
@@ -46,7 +49,7 @@ function Logos() {
                         }}
                         loop={true}
                         autoplay={{
-                            delay: 1500,
+                            delay: 2500,
                         }}
                     >
                         <SwiperSlide> <img src={Logo1} alt="" /></SwiperSlide>

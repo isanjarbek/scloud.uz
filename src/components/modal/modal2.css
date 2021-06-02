@@ -3,15 +3,7 @@
   text-align: left;
 }
 .body2 {
-    width: 600px;
-    max-height: 100vh;
-    background-color: #fff;
-    padding: 30px;
-    overflow-y: scroll;
-    position: relative;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+  width: 600px;
 }
 .left-content p {
   margin: 20px 0;
@@ -30,5 +22,4 @@
   .right-content {
     display: none;
   }
-  
 }

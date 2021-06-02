@@ -28,7 +28,7 @@ function Main() {
                             <Button
                                 name="started-now main-btn"
                                 text="Batafsil"
-                                show={() => setModal({ modal: true })}
+                                show={() => setModal(!modal)}
                             />
                             <ModalWindow
                                 title={'Raqamli mahsulotlar'}

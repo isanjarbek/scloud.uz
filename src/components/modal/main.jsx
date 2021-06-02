@@ -1,37 +1,28 @@
-import React, { useState } from 'react'
+import React from 'react'
 import './main.css'
 import { IconButton } from '@material-ui/core';
 
 const ModalWindow = props => {
 
-    // if (isOpened) {
-    //     document.body.style.overflow = "hidden"
-    // }
-    // else {
-    //     document.body.style.overflow = "unset"
+    if (props.isOpened) {
+        document.body.style.overflow = "hidden"
+    }
+    else {
+        document.body.style.overflow = "unset"
 
-    // }
-    const [modal, setModal] = useState(true)
+    }
     return (
         <>
-            {
-                modal ?
-
-                    <div className={`modal__wrapper ${props.isOpened ? 'open' : 'close'}`} style={{ ...props.style }}
-                        onClick={props.onModalClose} 
-                        >
-                        <div className="modal_body">
-                            <div className="modal_close" >
-                                <IconButton onClick={props.onModalClose}>×</IconButton>
-                            </div>
-                            <h2>{props.title}</h2>
-                            <p>{props.text}</p>
-                            {props.children}
-                        </div>
-                    </div>
-                    : <div className="modalinfo"  onClick={props.onModalClose}>
-                        
-                      </div>
+            <div className={`modal_body ${props.isOpened ? 'modal_body open' : 'modal_body close'}`}>
+                <div className="modal_close" >
+                    <IconButton onClick={props.onModalClose}>×</IconButton>
+                </div>
+                <h2 className="title">{props.title}</h2>
+                <p className="text">{props.text}</p>
+                {props.children}
+            </div>
+            {props.isOpened ?
+                <div className="modal__wrapper" onClick={props.onModalClose}></div> : ""
             }
         </>
     )
