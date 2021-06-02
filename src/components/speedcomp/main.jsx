@@ -19,8 +19,7 @@ function SpeedComp() {
                                 <input type="number"
                                     placeholder="Telefon raqam"
                                     className="email-type" name="phone "
-                                        // min="1"
-                                        // max="20"
+                                       
                                 />
                             </div>
                             <Button name="started-now submit" text="Yuborish" />

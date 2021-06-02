@@ -28,7 +28,6 @@ function News() {
                 <div className="news-wrapper">
                     <Swiper
                         spaceBetween={100}
-                        // slidesPerView={1}
                         breakpoints={{
                             1300: {
                                 slidesPerView: 2,

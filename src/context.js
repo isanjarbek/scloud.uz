@@ -1,17 +1,18 @@
-import React, { createContext, useContext, useState } from "react";
+// import React, { createContext, useContext } from "react";
 
-const AlertContext = createContext();
+// const AlertContext = createContext();
 
-export const useAlert = () => {
-    return useContext(AlertContext);
-};
+// export const useAlert = () => {
+//     return useContext(AlertContext);
+// };
 
-export const ContextProvider = ({ children }) => {
-    const [modal, setModal] = useState(false);
+// export const ContextProvider = ({ children }) => {
 
-    return (
-        <AlertContext.Provider value={{ modal, setModal }}>
-            {children}
-        </AlertContext.Provider>
-    );
-};
+//     return (
+//         <AlertContext.Provider
+//         //  value={{}}
+//         >
+//             {children}
+//         </AlertContext.Provider>
+//     );
+// };

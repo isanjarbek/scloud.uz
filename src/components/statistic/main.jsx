@@ -35,7 +35,7 @@ function Statistic() {
                         <LazyLoadImage
                             src={StaticPhoto}
                             effect="blur"
-                            delayTime="2500"
+                            delayTime="2200"
                         />
                     </div>
                 </div>

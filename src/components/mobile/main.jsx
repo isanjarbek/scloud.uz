@@ -1,5 +1,5 @@
 import React from 'react'
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { BrowserRouter as Router} from "react-router-dom";
 import Button from '../button/button'
 import './style.css'
 import { HashLink as Link } from 'react-router-hash-link'
@@ -33,27 +33,6 @@ function Mobile({ setOpen }) {
                                 </li>
 
                             </ul>
-
-                            {/* <Switch>
-                                <Route path="/about">
-
-                                </Route>
-                                <Route path="/services">
-
-                                </Route>
-                                <Route path="/team">
-
-                                </Route>
-                                <Route path="/blog">
-
-                                </Route>
-                                <Route path="/contact">
-
-                                </Route>
-                                <Route path="/">
-
-                                </Route>
-                            </Switch> */}
                             <Link smooth to="#bog'lanish" >
                                 <div className="mobile-btn" onClick={handleOpen}>
                                     <Button name="started-now" text="Bog'lanish" />

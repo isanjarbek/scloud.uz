@@ -14,7 +14,7 @@ function Main() {
     const [modal, setModal] = useState(false)
 
     return (
-        <div className="main" id="asosiy"  onModalClose={() => setModal(false)}>
+        <div className="main" id="asosiy" >
             <div className="container">
                 <div className="main-menu">
                     <div className="main-text">
@@ -49,7 +49,7 @@ function Main() {
                         <LazyLoadImage
                             src={MainPhoto}
                             effect="blur"
-                            delayTime="2500"
+                            delayTime="2200"
                         />
                     </div>
                 </div>

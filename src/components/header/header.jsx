@@ -1,5 +1,5 @@
 import React from 'react'
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { BrowserRouter as Router} from "react-router-dom";
 import './header.css'
 import Button from '../button/button.jsx'
 import { IconButton } from '@material-ui/core';

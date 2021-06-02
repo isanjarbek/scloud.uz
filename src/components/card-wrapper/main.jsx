@@ -11,7 +11,6 @@ import ModalWindow from '../modal/main'
 function WrapperItem() {
 
     const [modal, setModal] = useState({ modal1: false, modal2: false, modal3: false })
-
     return (
         <div className="wrapper_item_menu" id="xizmatlar">
             <div className="container">

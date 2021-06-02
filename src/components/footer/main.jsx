@@ -1,4 +1,5 @@
 import React from 'react'
+import { BrowserRouter as Router, Link } from "react-router-dom";
 import Logo from '../../photos/Logos/cloud.png'
 import './style.css'
 
@@ -6,7 +7,6 @@ import { FaFacebookF, FaInstagram, FaTelegramPlane } from 'react-icons/fa';
 import { FiMail, FiPhoneCall } from 'react-icons/fi'
 import { GrLocation } from "react-icons/gr";
 
-import { BrowserRouter as Router, Route, Switch, Link } from "react-router-dom";
 
 function Footer() {
     return (
@@ -43,20 +43,6 @@ function Footer() {
                                     </div>
                                 </Link>
 
-                                <Switch>
-                                    <Route path="/facebook">
-
-                                    </Route>
-                                    <Route path="/instagram">
-
-                                    </Route>
-                                    <Route path="/telegram">
-
-                                    </Route>
-                                    <Route path="/gmail">
-
-                                    </Route>
-                                </Switch>
                             </Router>
                         </div>
 
@@ -85,15 +71,15 @@ function Footer() {
                         <h2>Biz bilan bog'lanish</h2>
                         <ul>
                             <li>
-                                <span className="connecting"><FiMail />Gmail:</span>
-                                <a href="mailto:csolution.uz@gmail.com" target="_blank">Cloudsolution@gmail.com </a>
+                                <span className="connecting" ><FiMail />Gmail:</span>
+                                <a href="mailto:csolution.uz@gmail.com" target="_blank" rel="noreferrer">Cloudsolution@gmail.com </a>
                             </li>
                             <li >
-                                <span className="connecting"><FiPhoneCall />Bog'lanish:</span>
-                                <a href="tel:+998 97 346 88 87" target="_blank"> +998 97 346 88 87</a>
+                                <span className="connecting" ><FiPhoneCall />Bog'lanish:</span>
+                                <a href="tel:+998 97 346 88 87" target="_blank" rel="noreferrer"> +998 97 346 88 87</a>
                             </li>
                             <li><span className="connecting"><GrLocation />Manzil:</span>
-                                <a href="https://maps.google.com/maps?q=41.326406,69.230060&ll=41.326406,69.230060&z=16" target="_blank"> Toshkent, Olmazor t. Beruniy ko'chasi 2B </a>
+                                <a href="https://maps.google.com/maps?q=41.326406,69.230060&ll=41.326406,69.230060&z=16" target="_blank" rel="noreferrer"> Toshkent, Olmazor t. Beruniy ko'chasi 2B </a>
                             </li>
                         </ul>
                     </div>

@@ -1,13 +1,11 @@
 import React from 'react'
 import './style.css'
 
-import SwiperCore, { Navigation, Pagination, Scrollbar, Autoplay, A11y } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/swiper.scss';
 import 'swiper/components/navigation/navigation.scss';
 import 'swiper/components/pagination/pagination.scss';
 import 'swiper/components/scrollbar/scrollbar.scss';
-// SwiperCore.use([Navigation, Pagination, Scrollbar, Autoplay, A11y]);
 
 import Logo1 from '../../photos/Logos/adliya.png'
 import Logo2 from '../../photos/Logos/inovatsiya.png'
@@ -59,14 +57,6 @@ function Logos() {
                         <SwiperSlide> <img src={Logo6} alt="" /></SwiperSlide>
                         <SwiperSlide> <img src={Logo7} alt="" /></SwiperSlide>
                     </Swiper>
-                    {/* <img src={Logo1} alt="" />
-                     <img src={Logo2} alt="" />
-                     <img src={Logo3} alt="" />
-                     <img src={Logo4} alt="" />
-                     <img src={Logo5} alt="" />
-                     <img src={Logo6} alt="" />
-                     <img src={Logo7} alt="" />
-                     <img src={Logo8} alt="" /> */}
 
                 </div>
             </div>
