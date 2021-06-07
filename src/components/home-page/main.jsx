@@ -1,17 +1,19 @@
 import React, { useState } from 'react'
 import './style.css'
 import Button from '../button/button'
-
 import { HiPlay } from "react-icons/hi";
 import MainPhoto from '../../photos/main.png'
-
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 import 'react-lazy-load-image-component/src/effects/blur.css';
-
 import ModalWindow from '../modal/main';
+import ModalVideo from 'react-modal-video'
+
+import '../../../node_modules/react-modal-video/scss/modal-video.scss'
 
 function Main() {
     const [modal, setModal] = useState(false)
+    const [isOpen, setOpen] = useState(false)
+
 
     return (
         <div className="main" id="asosiy" >
@@ -37,10 +39,17 @@ function Main() {
                                 onModalClose={() => setModal(false)}
                             />
                             <div className="start-video">
-                                <HiPlay
-                                    color="#1e85fe"
-                                    className="start-video-svg"
-                                />
+                                <React.Fragment>
+                                    <HiPlay
+                                        color="#1e85fe"
+                                        className="start-video-svg"
+                                        onClick={() => setOpen(true)}
+                                    />
+                                    <ModalVideo channel='youtube'
+                                        autoplay isOpen={isOpen}
+                                        videoId="fBBbEeEmFJs"
+                                        onClose={() => setOpen(false)} />
+                                </React.Fragment>
                                 <span className="start-video-text">Watch Video</span>
                             </div>
                         </div>

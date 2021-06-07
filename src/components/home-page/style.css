@@ -1,3 +1,4 @@
+
 .main-menu {
   display: flex;
   padding: 80px 0 50px;
@@ -31,6 +32,7 @@
 .start-video svg {
   width: 30px;
   height: 30px;
+  cursor: pointer;
 }
 .start-video-text {
   margin-left: 15px;
@@ -38,6 +40,7 @@
   font-size: 15px;
   font-weight: 600;
   white-space: nowrap;
+  
 }
 .main-photo {
   padding: 0 12px;

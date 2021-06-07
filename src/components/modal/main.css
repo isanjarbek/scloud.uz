@@ -1,12 +1,11 @@
 .modal__wrapper {
-  background-color: rgba(197, 194, 194, 0.2);
-  color: rgb(44, 44, 59);
+  background-color: rgba(0, 0, 0, 0.2);
   width: 100%;
   height: 100%;
   position: fixed;
+  z-index: 9999;
   top: 0;
   left: 0;
-  z-index: 100;
   backdrop-filter: blur(10px);
 }
 .open {
@@ -16,14 +15,15 @@
   display: none;
 }
 .modal_body {
-  width: 500px;
+  width: 80%;
+  height: 95%;
   background-color: #fff;
   padding: 30px;
   overflow-y: scroll;
   position: fixed;
   top: 50%;
   left: 50%;
-  z-index: 9999;
+  z-index: 999999;
   transform: translate(-50%, -50%);
   text-align: left;
   font-size: 16px;
@@ -31,7 +31,7 @@
 
 .modal_body::-webkit-scrollbar {
   width: 0;
-  background-color: transparent;
+  background: transparent;
 }
 .modal_body {
   -ms-overflow-style: none;
@@ -40,24 +40,26 @@
 .modal_close {
   text-align: right;
   cursor: pointer;
-  font-size: 30px;
   height: 35px;
   display: flex;
   justify-content: flex-end;
 }
-.modal_body .title{
+.modal_body .title {
   font-size: 32px;
+  display: flex;
+  justify-content: center ;
 }
-
+.modal_body .text{
+  font-size: 16px;
+  max-width: 100%;
+}
 @media (max-width: 426px) {
-  .modal_body {
-    max-width: 300px;
-  }
-  .modal_body .title{
+  
+  .modal_body .title {
     font-size: 23px;
     line-height: 24px;
   }
-  .modal_body .text{
+  .modal_body .text {
     font-size: 14px;
   }
 }

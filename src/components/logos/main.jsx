@@ -60,7 +60,15 @@ function Logos() {
                         <SwiperSlide> <img src={Logo6} alt="" /></SwiperSlide>
                         <SwiperSlide> <img src={Logo7} alt="" /></SwiperSlide>
                     </Swiper>
-
+                    {/* <div className="animataion">
+                    <img src={Logo1} alt="" />
+                    <img src={Logo2} alt="" />
+                    <img src={Logo3} alt="" />
+                    <img src={Logo4} alt="" />
+                    <img src={Logo5} alt="" />
+                    <img src={Logo6} alt="" />
+                    <img src={Logo7} alt="" />
+                    </div> */}
                 </div>
             </div>
         </div>

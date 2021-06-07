@@ -6,21 +6,29 @@
     justify-content: space-between;
     padding: 0 12px;
     width: 100%;
-    animation: marquee 20s infinite;
+    animation: marquee 20s infinite; 
 }
 .img-logos img{
     width: 90px;
     height: 90px;
+    margin: 0 45px;
 }
-
-@keyframes marquee{
+/* .img-logos{
+    display: flex;
+    justify-content: space-between;
+    animation: 10s linear 0s infinite normal none running shift;
+    white-space: nowrap;
+    overflow: hidden;
+    position: absolute;
+}
+@keyframes shift{
     0%{
-        left: 0;
+        transform: translateX(-100%);;
     }
     100%{
-        left: -100%;
+        transform: translateX(100%);
     }
-}
+} */
 
 @media only screen and (max-width:1300px) {
     .img-logos img{

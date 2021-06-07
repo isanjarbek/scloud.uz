@@ -34,10 +34,11 @@ function Plans() {
                         </button>
                         <Modal2
                             cours={'Veb ilovalar'}
-                            txt="50GB Bandwidth
-                            Business & Financ Analysing
-                            24 Hour Support
-                            Customer Managemet
+                            txt="Veb ilovalar,
+                            Online savdo,
+                            Tashrif saytlari,
+                            Telegram botlar,
+                            Server xizmatlari
                             "
                             image={Image1}
                             isOpened={modal.modal1}
@@ -58,11 +59,12 @@ function Plans() {
                         >   Boshlash
                         </button>
                         <Modal2
-                            cours={'Beginner'}
-                            txt="50GB Bandwidth
-                            Business & Financ Analysing
-                            24 Hour Support
-                            Customer Managemet
+                            cours={'Mobil ilovalar'}
+                            txt="Android ilovalar,
+                            iOS ilovalar,
+                            Kross ilovalar,
+                            ilovalarni yangilash,
+                            Native'ga o'girish
                             "
                             image={Image2}
                             isOpened={modal.modal2}
@@ -82,11 +84,11 @@ function Plans() {
                         >   Boshlash
                         </button>
                         <Modal2
-                            cours={'Mobil ilovalar'}
-                            txt="50GB Bandwidth
-                            Business & Financ Analysing
-                            24 Hour Support
-                            Customer Managemet
+                            cours={'Raqamli marketing'}
+                            txt="Qidiruvni optimizatsiyalash (SEO),
+                            Kontent marketing,
+                            Pay-per-click (PPC),
+                            SMM
                             "
                             image={Image3}
                             isOpened={modal.modal3}

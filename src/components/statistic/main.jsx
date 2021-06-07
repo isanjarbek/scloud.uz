@@ -25,8 +25,8 @@ function Statistic() {
                             show={() => setModal({ modal: true })}
                         />
                         <ModalWindow
-                            title={'Perfect Solution'}
-                            text={'Quickly coordinate e-business applications through revolutionary catalysts for chang the Seamlessly underwhelm optimal testing procedures.'}
+                            title={'Biznesingizni avtomatlshtiring'}
+                            text="Biznesingizni avtomatlashtirish orqali mijozlar oqimini nazorat qilishingiz, tahlil qilishingiz mumkin bo'ladi. Bu orqali siz yangi mijozlar topish, mavjud mijozlarni doimiy mijozlarga aylantirishgiz mumkin bo'ladi. Jarayon to'liq nazoratga olinadi. "
                             isOpened={modal}
                             onModalClose={() => setModal(false)}
                         />
