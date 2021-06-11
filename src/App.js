@@ -17,31 +17,27 @@ import Footer from './components/footer/main'
 // import ITjobs from './components/IT-jobs/main';
 import SidebarMenu from './components/Drawer/index.jsx'
 
-// import Fade from 'react-reveal/Fade';
-
 export default function App() {
 
   const [open, setOpen] = useState(false);
   return (
     <>
-      {/* <Fade bottom> */}
-        <Header open={open} setOpen={setOpen} />
-        <Main />
-        <Logos />
-        <Statistic />
-        {/* <ITjobs /> */}
-        <CardMini />
-        <WrapperItem />
-        <AboutSEO />
-        {/* <StaticNum /> */}
-        <SpeedComp />
-        <Plans />
-        <Members />
-        {/* <Clients /> */}
-        {/* <News /> */}
-        <Footer />
-        <SidebarMenu open={open} setOpen={setOpen} />
-      {/* </Fade>  */}
+      <Header open={open} setOpen={setOpen} />
+      <Main />
+      <Logos />
+      <Statistic />
+      {/* <ITjobs /> */}
+      <CardMini />
+      <WrapperItem />
+      <AboutSEO />
+      {/* <StaticNum /> */}
+      <SpeedComp />
+      <Plans />
+      <Members />
+      {/* <Clients /> */}
+      {/* <News /> */}
+      <Footer />
+      <SidebarMenu open={open} setOpen={setOpen} />
     </>
   );
 }
